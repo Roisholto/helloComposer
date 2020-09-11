@@ -1,0 +1,16 @@
+{
+    "name": "roisholto/hello-composer",
+    "description": "A creating composer package tutorial",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Roisholto",
+            "email": "roisoetan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"roisholto\\Hello\\": "src/"}
+    },
+    "require": {}
+}
